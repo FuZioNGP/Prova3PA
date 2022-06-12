@@ -1,4 +1,4 @@
-# Prova3PA
+# Prova 3 de Programação Aplicada
 
 Prova realizada pelos alunos:
 - Gabriel Paulo Sizini Silva - gabrielpaulo@ucl.br
