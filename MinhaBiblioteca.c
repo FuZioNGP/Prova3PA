@@ -12,4 +12,16 @@ void max_min(int nums[], int *max, int *min, int nElementos)
     *max = nums[1];
     *min = nums[0];
   }
+  
+  for(int i = 2; i < nElementos; i++)
+  {
+    if (nums[i] > *max){
+      *max = nums[i];
+    } 
+      
+         
+    if (nums[i] < *min) {
+      *min = nums[i];
+    } 
+  }
 }
