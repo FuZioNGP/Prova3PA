@@ -24,6 +24,7 @@ int main(void)
   else if(nElementos == 1)
   {
     int num;
+    printf("Num = ");
     scanf("%d", &num);
     printf("O numero escolhido foi: %d\n", num);
     printf("Max=%d, Min=%d\n",num,num);
@@ -36,7 +37,7 @@ int main(void)
   }
 
   printf("Os numeros inseridos foram: \n");
-  //função que separa a cadeia por virgulas
+  //função que separa a cadeia por virgulas ("1,2,3,4,5\n")
   for (int i = 0; i < nElementos; i++) 
   {
     printf("%d", nums[i]);
